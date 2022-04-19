@@ -1,0 +1,76 @@
+button {
+  border: outset;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: normal;
+}
+
+h2 { text-align: center; font-family: monospace }
+
+#counter {
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#counterDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border: solid 2px;
+  border-color: gray;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0 0;
+  width: fit-content;
+  height: 50px;
+}
+
+.device {
+  display: block;
+  overflow: hidden;
+  margin: 8px auto;
+  width: 400px;
+  border: solid;
+  border-radius: 2px;
+  padding: 5px;
+  border-color: LightSlateGray;
+}
+
+.device > * {
+  margin: 2px 5px;
+  font-size: 16px;
+  padding: 4px 9px;
+  display: inline-block;
+}
+
+.deviceName {
+  font-family: "monospace"
+}
+
+.incButton {
+  background-color: #7ea2c4;
+  border-color: #7ea2c4;
+  float: right;
+}
+
+.incButton:hover {
+  background-color: #6dafed;
+  border-color: #6dafed;
+}
+
+.incButton:active {
+  transform: scale(0.95);
+}

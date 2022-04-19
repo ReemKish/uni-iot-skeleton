@@ -1,9 +1,20 @@
 <!doctype html>
 <html>
   <head>
-    <title>IoT Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="button.js"></script>
+    <title>Counter Manager</title>
   </head>
   <body>
-    <p>Website</p>
+    <h2>Current Counter</h2>
+    <div id="counterDiv">
+      <p id="counter">0</p>
+    </div>
+      <p style="margin: 10px auto; width: fit-content; cursor: pointer; color: gray;" onclick="addDevice(prompt('Device name:'))">(add device)</p>
+    <div id="deviceList">
+      <script>addDevice('Smoke Detector Device')</script>
+      <script>addDevice('IP Camera Device')</script>
+    </div>
+    <p></p>
   </body>
 </html>
