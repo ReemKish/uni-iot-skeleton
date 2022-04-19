@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ejV6Z32nWTw0gigBquzRcfvx22rk3t518JJ20K633fYD9R/KKTJuyZJoArNtFhsdW5VpO7tXzZyks5TewRKccg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp\\CounterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuval\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\yuval\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\yuval\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+  ],
+  "logs": []
+}
