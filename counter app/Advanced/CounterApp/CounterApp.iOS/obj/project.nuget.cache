@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4xjjr+Y7VI0Dah/RhQcy+2c3fgp8nQ0dYJt9EkynpwWEkBZFU4AQFFpgWdSLSL9GF601Y+kvvGj7VIOVtNIF4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Advanced\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuval\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+  ],
+  "logs": []
+}
