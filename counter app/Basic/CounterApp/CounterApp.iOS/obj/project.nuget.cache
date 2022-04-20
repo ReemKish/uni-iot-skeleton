@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z/cvqNH0zk5VNn041LrXfRUJ+nS3TOolSu5DbSZFmJulAoyH45CnjtPiqDFZvEQkqlMoG5PlUEPQFyoRqFXpig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuval\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+  ],
+  "logs": []
+}

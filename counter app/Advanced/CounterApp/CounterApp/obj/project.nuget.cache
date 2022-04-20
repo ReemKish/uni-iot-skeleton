@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aSEG3W8hvlF1/aPr/p4XuacUvjWor8AqGJmP7F6aeHUN88lKo+BI7Z+N7qmxpcbeyUoUoQH43DPgiyk1NUlqKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Advanced\\CounterApp\\CounterApp\\CounterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuval\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\yuval\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\yuval\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+  ],
+  "logs": []
+}
