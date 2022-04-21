@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'countermanager'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_131F957F491B4E46BA0B260A1141E3DC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A75BC44626214E20B2E48CF3AB29A9FA }}
