@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - managercounter
+name: Build and deploy Python app to Azure Web App - countermanager
 
 on:
   push:
@@ -13,7 +13,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./website
     steps:
       - uses: actions/checkout@v2
 
@@ -46,7 +48,9 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
+    defaults:
+      run:
+        working-directory: ./website
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v2
@@ -58,6 +62,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'managercounter'
+          app-name: 'countermanager'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2AEE2CB8A1674EC390A2117C046EB065 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A75BC44626214E20B2E48CF3AB29A9FA }}

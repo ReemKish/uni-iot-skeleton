@@ -13,7 +13,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./website
     steps:
       - uses: actions/checkout@v2
 
@@ -46,7 +48,9 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
+    defaults:
+      run:
+        working-directory: ./website
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v2
