@@ -13,3 +13,9 @@ function addDevice(device_name) {
       </div>
 `)
 }
+
+function addDevices(device_names) {
+  for (var i=0; i < device_names.length; i++) {
+    addDevice(device_names[i]);
+  }
+}
