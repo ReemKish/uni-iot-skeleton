@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/cvqNH0zk5VNn041LrXfRUJ+nS3TOolSu5DbSZFmJulAoyH45CnjtPiqDFZvEQkqlMoG5PlUEPQFyoRqFXpig==",
+  "dgSpecHash": "aD0IuC1NHwo0x/Y5C4hBcI3fqNzJ/YrqEMHkG93G2ZM3cHqu+UzdS9TCNWYuSUxlTpuXn1yFt1MkIfgw2gWaow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yuval\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
   ],

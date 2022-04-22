@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wKRn9w4qLz8NtPHu0Ub5MhqtVbIVD7bfPW1ecF9dTVxuGctzgr+hyXrGBk+gv6Sisl0na83kmpmOr6KxVNCTSA==",
+  "dgSpecHash": "bFmOWXl76xTnAT1N7J+fbbN+i+8WEV2Lp9aITC3ot33pVv9OPamg9kzlZfTSSqU+rfDx8PCaAi2PTt7yliWmqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp.UWP\\CounterApp.UWP.csproj",
+  "projectFilePath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp.UWP\\CounterApp.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yuval\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
     "C:\\Users\\yuval\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.9\\microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",

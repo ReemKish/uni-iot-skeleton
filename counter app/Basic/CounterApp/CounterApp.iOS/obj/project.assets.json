@@ -856,11 +856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
       "projectName": "CounterApp.iOS",
-      "projectPath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
+      "projectPath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
       "packagesPath": "C:\\Users\\yuval\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -881,8 +881,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp\\CounterApp.csproj": {
-              "projectPath": "C:\\Users\\yuval\\Source\\Repos\\Skeleton-Project_2022\\01 Mobile App\\Basic\\CounterApp\\CounterApp\\CounterApp.csproj"
+            "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp\\CounterApp.csproj": {
+              "projectPath": "C:\\Users\\yuval\\source\\repos\\uni-iot-skeleton\\counter app\\Basic\\CounterApp\\CounterApp\\CounterApp.csproj"
             }
           }
         }
