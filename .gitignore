@@ -2,3 +2,9 @@
 website/__pycache__
 website/app/__pycache__
 website/env
+/counter app/Basic/CounterApp/CounterApp.Android/
+.vscode
+.vs
+.DS_Store
+bin
+/obj
