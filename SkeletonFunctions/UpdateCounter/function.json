@@ -11,6 +11,13 @@
       ]
     },
     {
+      "name": "signalRMessage1",
+      "hubName": "serverless",
+      "connectionStringSetting": "SignalRConnectionString",
+      "direction": "out",
+      "type": "signalR"
+    },
+    {
       "type": "http",
       "direction": "out",
       "name": "res"

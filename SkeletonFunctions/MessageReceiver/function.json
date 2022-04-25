@@ -8,6 +8,13 @@
       "connection": "skeleton_iothubroutes_SkeletonH_EVENTHUB",
       "cardinality": "many",
       "consumerGroup": "$Default"
+    },
+    {
+      "name": "signalRMessage2",
+      "hubName": "serverless",
+      "connectionStringSetting": "SignalRConnectionString",
+      "direction": "out",
+      "type": "signalR"
     }
   ]
 }

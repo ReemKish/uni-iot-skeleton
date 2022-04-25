@@ -12,10 +12,17 @@ module.exports = async function (context, eventHubMessages) {
     tableName,
     credential
     );
-    eventHubMessages.forEach(async (message, index) => {
+    let value = "1"
+    let promises = []
+    for(let message in eventHubMessages) {
         context.log(`Processed message ${message}`);
-        let entity = await tableClient.getEntity('counter_pk','counter_rk', '001');
+        entity = await tableClient.getEntity('counter_pk','counter_rk', '001');
         entity.Value += 1;
+        value = entity.Value.toString()
         await tableClient.updateEntity(entity);
-    });
+    }
+    context.bindings.signalRMessage2 = [{
+            "target": "CounterUpdateSignal",
+            "arguments": [ "aaaa", value ]
+        }];
 };
