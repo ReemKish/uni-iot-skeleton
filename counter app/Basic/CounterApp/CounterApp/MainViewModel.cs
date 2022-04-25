@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Microsoft.AspNetCore.SignalR.Client;
 using Xamarin.Forms;
 
 namespace CounterApp
@@ -18,6 +19,8 @@ namespace CounterApp
             set => SetProperty(ref _counter, value);
         }
 
+        private HubConnection connection;
+
         public ICommand IncrementCounterCommand { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -28,12 +31,7 @@ namespace CounterApp
             HttpClient client = new HttpClient();
             HttpResponseMessage response = await client.GetAsync(URL);
             String res = await response.Content.ReadAsStringAsync();
-            try {
-                Counter = Int32.Parse(res);
-            }
-            catch (FormatException e) {
-                Counter = -1;
-            }
+            tryUpdateStringCounter(res);
         }
         public async Task setCounter(int value)
         {
@@ -44,8 +42,28 @@ namespace CounterApp
 
         public MainViewModel()
         {
+            Console.WriteLine("start2");
             IncrementCounterCommand = new Command<string>(IncrementCounter);
             getCounter();
+            connection = new HubConnectionBuilder()
+                .WithUrl("https://skeletonfunctionsapp.azurewebsites.net/api")
+                .Build();
+            connection.On<string, string>("CounterUpdateSignal", (user, message) =>
+            {
+                tryUpdateStringCounter(message);
+            });
+            connection.StartAsync();
+        }
+
+        private void tryUpdateStringCounter(string newVal) {
+            try
+            {
+                Counter = Int32.Parse(newVal);
+            }
+            catch (FormatException e)
+            {
+                Counter = -1;
+            }
         }
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
@@ -56,10 +74,6 @@ namespace CounterApp
         private void IncrementCounter(string counterId)
         {
             setCounter(Counter + 1);
-        }
-
-        private void signalRUpdate(int value) {
-                Counter = value;
         }
 
         private bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = null)
